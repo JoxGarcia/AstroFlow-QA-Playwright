@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@POM/*": ["POM/*"],
+      "@flows/*": ["flows/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@data/*": ["data/*"]
+    }
+  }
+}

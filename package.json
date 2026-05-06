@@ -1,0 +1,28 @@
+{
+  "name": "astroflow-qa-playwright",
+  "version": "1.0.0",
+  "description": "Playwright-based E2E automation framework for testing a multi-step RFQ flow, covering UI behavior, validations, and API interactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoxGarcia/AstroFlow-QA-Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JoxGarcia/AstroFlow-QA-Playwright/issues"
+  },
+  "homepage": "https://github.com/JoxGarcia/AstroFlow-QA-Playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
